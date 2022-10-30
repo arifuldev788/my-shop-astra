@@ -1,0 +1,16 @@
+.dark{
+    background-color: #F6F7F8;
+}
+.dark {
+    background-color: #000 !important;
+    transition: .8s ease-in-out;
+}
+.footer-top {
+    background-color: #272626 !important;
+}
+a, h1, h2, h4, h5, h6, p, hr {
+    color: #fff !important;
+}
+a:hover{
+    color: #ff0000;
+}
