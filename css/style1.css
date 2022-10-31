@@ -8,12 +8,18 @@
 .footer-top {
     background-color: #272626 !important;
 }
-a, h1, h2, h4, h5, h6, p, hr {
+a, h1, h2, h4, h5, h6, p {
     color: #fff !important;
 }
 a:hover{
     color: #ff0000;
 }
+<<<<<<< HEAD
 .fa-solid.fa-bars {
 	color: #fff;
 }
+=======
+hr{
+    border: 3px solid #ffffff !important;
+}
+>>>>>>> 4f755f6b9a06f2d032e18ca0f6219c25dba686f6
