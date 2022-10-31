@@ -281,7 +281,22 @@ img{
 .copyright p{
     color:#999;
 }
-
+.mobile-logo{
+    display: none;
+}
+.mobile-menu{
+    width: 100%;
+    display: none;
+}
+.menu-icons{
+    width: 30%;
+    float: left;
+}
+.menu-logo{
+    width: 70%;
+    float: right;
+    text-align: right;
+}
 
 /* Responsive */
 @media (max-width: 1200px){
@@ -301,6 +316,15 @@ img{
         width: 95%;
     }
     .social-links, .top-nav {
+        display: none;
+    }
+    .mobile-logo{
+        display: block;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .top-header {
         display: none;
     }
 
