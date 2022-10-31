@@ -297,7 +297,17 @@ img{
     float: right;
     text-align: right;
 }
-
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9999;
+}
+section{
+    margin-top: 235px;
+}
 /* Responsive */
 @media (max-width: 1200px){
     .banner-text h1{ 
@@ -326,6 +336,9 @@ img{
     }
     .top-header {
         display: none;
+    }
+    section{
+        margin-top: 135px;
     }
 
 }

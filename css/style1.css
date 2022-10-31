@@ -1,7 +1,7 @@
 .dark{
     background-color: #F6F7F8;
 }
-.dark {
+.dark, header {
     background-color: #000 !important;
     transition: .8s ease-in-out;
 }
@@ -16,4 +16,13 @@ a:hover{
 }
 .navbar-toggler-icon {
 	color: #fff !important;
+}
+section{
+    margin-top: 210px;
+}
+@media (max-width: 990px){
+    section{
+        margin-top: 98px;
+    }
+
 }
